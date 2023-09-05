@@ -5,7 +5,14 @@ import "./App.css";
 const App: FC = () => {
   return (
     <div className="App">
-      <h1>React Typescript Template</h1>
+      <div className="header">
+        <div className="input-container">
+          <input type="text" placeholder="Add a task..." />
+          <input type="number" placeholder="Deadline (in Days)..." />
+        </div>
+        <button>Let's add a new Task!</button>
+      </div>
+      <div className="todo-list"></div>
     </div>
   );
 };
