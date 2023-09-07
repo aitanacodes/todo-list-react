@@ -1,3 +1,8 @@
+# Project based in PedroTech's TodoList
+
+GitHub: https://github.com/machadop1407/TodoList-React-TypeScript/tree/main
+YouTube: https://www.youtube.com/watch?v=bjnW2NLAofI
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,4 +49,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
 # todo-list-react
