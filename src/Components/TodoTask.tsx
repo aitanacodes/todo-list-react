@@ -1,13 +1,14 @@
 import React from "react";
 import { ITask } from "../interfaces";
 import "../App.css";
+import TrashTaskIcon from "../icons/TrashTaskIcon";
 
 interface Props {
   task: ITask;
   completeTask(taskNameToDelete: string): void;
 }
 
-const TodoTask = ({ task, completeTask }: Props) => {
+export const TodoTask = ({ task, completeTask }: Props) => {
   return (
     <div className="task">
       <div className="content">
@@ -15,11 +16,12 @@ const TodoTask = ({ task, completeTask }: Props) => {
         <span>{task.deadline}</span>
       </div>
       <button
+        className="trash-icon"
         onClick={() => {
           completeTask(task.taskName);
         }}
       >
-        X
+        <TrashTaskIcon />
       </button>
     </div>
   );

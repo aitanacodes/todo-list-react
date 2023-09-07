@@ -1,6 +1,6 @@
 # Project based in PedroTech's TodoList
 
-GitHub: https://github.com/machadop1407/TodoList-React-TypeScript/tree/main
+GitHub: https://github.com/machadop1407/TodoList-React-TypeScript/tree/main \
 YouTube: https://www.youtube.com/watch?v=bjnW2NLAofI
 
 # Getting Started with Create React App
