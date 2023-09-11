@@ -34,14 +34,19 @@ const App: FC = () => {
   return (
     <div className="App">
       <div className="header">
+        <h1>To-Do List</h1>
         <div className="input-container">
           <input
             type="text"
+            maxLength={150}
             placeholder="Add a task..."
             name="task"
             value={task}
             onChange={handleChange}
           />
+          <div className="character-count">
+            {150 - task.length}/150 caracteres restantes
+          </div>
           <input
             type="number"
             placeholder="Deadline (in Days)..."
